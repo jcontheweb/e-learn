@@ -1,0 +1,22 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  @apply bg-brand bg-opacity-10;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
